@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+#giphyForm {
+  margin-bottom: 20px;
+}
+
+#apiKeyInput {
+  width: 250px;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#messageContainer {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+#gifContainer {
+  margin-top: 20px;
+}
+
+#gifContainer img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
