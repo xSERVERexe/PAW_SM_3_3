@@ -4,13 +4,17 @@ body {
   text-align: center;
 }
 
-#giphyForm {
+#giphySearchForm {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
-#apiKeyInput {
-  width: 250px;
+input {
   padding: 8px;
+  width: 200px;
 }
 
 button {
@@ -24,12 +28,16 @@ button {
 }
 
 #gifContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
   margin-top: 20px;
 }
 
-#gifContainer img {
-  max-width: 100%;
-  height: auto;
+.gif-item {
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 200px;
+  width: auto;
 }
